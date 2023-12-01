@@ -1,4 +1,4 @@
-import{BrowserRouter, Routes, Route, Switch} from "react-router-dom"
+import{BrowserRouter, Routes, Route} from "react-router-dom"
 import Login from "./login/Login";
 import Profile from "./login/Profile";
 import Home from "./pages/Home"
@@ -7,7 +7,6 @@ import JednoSlovo from "./pages/JednoSlovo"
 import LayOut from "./pages/LayOut"
 import Form from "./pages/Form"
 import Cviceni from "./pages/Cviceni"
-
 
 const App = () => {
   return <BrowserRouter>
