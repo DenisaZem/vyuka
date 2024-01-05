@@ -42,7 +42,7 @@ const submitForm = (e)=>{
       value={wordCz}
       onChange={(e)=>setWordCz(e.target.value)}
        />
-       <br />
+       <br />()
 
     <input 
       type="text"
